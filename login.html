@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="login">
+        <header>
+            <img src="img/logo.png" alt="">
+            <nav>
+                <ul class="lista1">
+                    <li><a href="">smartphones</a></li>
+                    <li><a href="">tablets</a></li>
+                    <li><a href="">computadoras</a></li>
+                </ul>
+                <ul class="derecha">
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="registro.html">registro</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="form">
+            <h1>BIENVENIDO</h1>
+            <form action="registro" method="POST">
+                <div class="email-">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="password">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+                <div class="recordarme">
+                    <input type="checkbox" name="recordar" id="recordar">
+                    <label for="recuerdame">RECORDAR</label>
+                </div>
+                <p>Email y Contraseña no valido</p>
+                <button type="submit">INGRESAR</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
